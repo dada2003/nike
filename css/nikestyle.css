@@ -29,14 +29,14 @@ body:before {
 }
 
 .container {
+    margin: 0 auto;
     width: 686px;
     height: 391px;
     box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
     border-radius: 10px;
     background-color: #111a28;
-    margin-top: 10%;
     position: relative;
-    margin: 0 auto;
+    
 }
 
 .logo {
@@ -44,10 +44,13 @@ body:before {
 }
 
 .boot {
+/*
     position: absolute;
     top: 126px;
     left: 36px;
+*/
     float: left;
+    padding-top: 8%;
 }
 
 .right {
