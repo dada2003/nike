@@ -4,6 +4,7 @@ body {
     background-size: cover;
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
+    position: relative;
 }
 
 .clearfix:after {
@@ -35,7 +36,9 @@ body:before {
     box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
     border-radius: 10px;
     background-color: #111a28;
-    position: relative;
+    position: absolute;
+    top: 109px;
+    left:333px;
     
 }
 
@@ -139,16 +142,18 @@ select {
     border: 1px solid #ffffff;
     opacity: 0.26;
     background-color: #111a28;
+    color:#ffffff;
 }
 
-input {
+input{
     background-color: #111a28;
     border: solid 1px lightgray;
     margin: 20px 0;
+    width: inherit;
     height: 40px;
     text-align: center;
     color: white;
-    width: 184;
+    
 }
 
 
